@@ -114,21 +114,21 @@ const Karzinka = () => {
             </div>
 
             <div className="2xl:max-w-[350px] w-[100%] h-[300px] border p-[10px] flex flex-col gap-[20px] font-[600] rounded sticky top-[90px]">
-              <h1>chegirma: 0</h1>
+              <h1>Sale: 0</h1>
               <div className="flex items-center justify-between font-[600]">
                 <p>
-                  mahsulot({basket.length}): {totalPrice} som
+                  Product({basket.length}): {totalPrice} som
                 </p>
               </div>
               <hr />
               <div className="flex justify-between font-[600] gap-">
                 <p className="font-bold text-xl">
-                  jami: {parseInt(totalPrice).toLocaleString()} som
+                  All: {parseInt(totalPrice).toLocaleString()} som
                 </p>
               </div>
 
-              <button className="w-[100%] h-[35px] rounded-[10px] bg-red-600 text-white text-[20px] mt-[30px]">
-                buyurtma berish
+              <button className="w-[100%] h-[35px] rounded-[10px]  text-white text-[20px] mt-[30px]">
+                Placing an order
               </button>
             </div>
           </div>
@@ -141,14 +141,15 @@ const Karzinka = () => {
             className="w-[140px] mb-[50px]"
           />
           <p className="font-bold text-[24px]">
-            Savatingizda hozircha mahsulot yo‘q
+          There are no products in your cart yet
           </p>
-          <p>Bosh sahifaga o'ting yoki izlash orqali toping</p>
+          <p>
+          Go to the home page or search for it</p>
           <Link
             to="/"
             className="py-2 px-3 h-[45px] rounded-[10px] bg-red-600 text-white text-[20px] mt-[30px]"
           >
-            Bosh sahifaga o'tish
+            Go to home page
           </Link>
         </div>
       )}

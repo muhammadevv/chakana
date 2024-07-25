@@ -21,18 +21,18 @@ const Phones = () => {
           return (
             <div
               key={item.id}
-              className="w-[200px] relative text-center p-[10px] rounded-2xl border-gray-300 border-[1px] hover:border-red-500 transition-all"
+              className="w-[200px] relative text-center p-[10px] rounded-2xl border-gray-300 border-[1px]"
             >
               <button
                 id="likeq"
-                className="absolute top-[10px] bg-white right-[10px] border-gray-200 border-[1px] p-[6px] rounded-lg hover:border-red-500 transition-all"
+                className="absolute top-[10px] bg-white right-[10px] border-gray-200 border-[1px] p-[6px] rounded-lg "
                 onClick={() => getLikedData(item)}
               >
                 <MdOutlineFavoriteBorder />
               </button>
               <button
                 id="like"
-                className="bg-white absolute rotate-[-90deg] top-[50px] right-[10px] translate-[260deg] border-gray-200 border-[1px] p-[6px] rounded-lg hover:border-red-500 transition-all"
+                className="bg-white absolute rotate-[-90deg] top-[50px] right-[10px] translate-[260deg] border-gray-200 border-[1px] p-[6px] rounded-lg "
               >
                 <TbAlignBoxLeftStretch />
               </button>

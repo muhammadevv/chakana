@@ -6,7 +6,6 @@ import Swiper from "swiper";
 import { SwiperSlide } from "swiper/react";
 import { Link } from "react-scroll";
 
-
 export let Home = () => {
   return (
     <div>
@@ -33,35 +32,46 @@ export let Home = () => {
       </Accordion> */}
 
       <section className="flex overflow-x-auto gap-[50px] pt-[90px] p-[20px] mx-auto cursor-pointer">
-        <Link  to="telefonlar"
-         spy={true} 
-         smooth={true} 
-         offset={-90} 
-         duration={250} className="w-[200px]">
-          smartfonlar
+        <Link
+          to="telefonlar"
+          spy={true}
+          smooth={true}
+          offset={-90}
+          duration={250}
+          className="w-[200px]"
+        >
+          Phones
         </Link>
-        <Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
-        </Link><Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
-        </Link><Link to="klimat" spy={true} smooth={true} offset={-90} duration={250} className="w-[200px]">
-          klimat
-        </Link><Link to="kirmashin" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          kirmashinalar
-        </Link><Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
-        </Link><Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
-        </Link><Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
-        </Link><Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
-        </Link><Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
-        </Link><Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
-        </Link><Link to="telvizorlar" spy={true} smooth={true} offset={-90} duration={250} className="w-[100px]">
-          televizorlar
+        <Link
+          to="telvizorlar"
+          spy={true}
+          smooth={true}
+          offset={-90}
+          duration={250}
+          className="w-[100px]"
+        >
+          Tv
+        </Link>
+
+        <Link
+          to="klimat"
+          spy={true}
+          smooth={true}
+          offset={-90}
+          duration={250}
+          className="w-[200px]"
+        >
+          Vintelyator
+        </Link>
+        <Link
+          to="kirmashin"
+          spy={true}
+          smooth={true}
+          offset={-90}
+          duration={250}
+          className="w-[100px]"
+        >
+          Washing machine
         </Link>
       </section>
     </div>

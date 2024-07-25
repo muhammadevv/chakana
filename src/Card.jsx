@@ -15,31 +15,31 @@ export const Card = () => {
       <Kategori />
 
       <h1 className="font-semibold text-[30px] mt-[40px] ml-[30px]">
-        Telefonlar va gadgetlar
+        Phones and gadjets
       </h1>
       <div className="flex items-center justify-center m-[30px]">
         <Phones />
       </div>
       <h1 className="font-semibold text-[30px] mt-[40px] ml-[30px]">
-        Televizorlar
+        TV
       </h1>
       <div className="flex items-center justify-center m-[30px]">
         <Tv />
       </div>
       <h1 className="font-semibold text-[30px] mt-[40px] ml-[30px]">
-        Kir mashinalari
+        Washingcar
       </h1>
       <div className="flex items-center justify-center m-[30px]">
         <Machine />
       </div>
       <h1 className="font-semibold text-[30px] mt-[40px] ml-[30px]">
-        Klimat uskunalar
+        Kanditsioner
       </h1>
       <div className="flex items-center justify-center m-[30px]">
         <Konditsioner />
       </div>
       <h1 className="font-semibold text-[30px] mt-[40px] ml-[30px] mb-[50px]">
-        Bizning afzalliklarimiz
+        our adventeages
       </h1>
       <div>
         <Advantage />

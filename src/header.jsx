@@ -34,7 +34,7 @@ const Header = () => {
         {state ? <Katalog /> : ""}
 
         <Link to="/kirish" id="s2">
-          <button className="skoring">Skoringdan otish</button>
+          <button className="skoring">The score</button>
         </Link>
 
         <div className="flex gap-2" id="s3">
@@ -44,7 +44,7 @@ const Header = () => {
         <Link to="/compare" id="s4">
           <button className="flex gap-1 items-center">
             <TbGitCompare className="text-[24px]" />
-            Taqqoslash
+            Comparison
           </button>
         </Link>
 
@@ -55,7 +55,7 @@ const Header = () => {
               alt=""
               className="w-[24px]"
             />
-            Sevimlilar
+            Favorites
           </button>
           <div className="flex justify-center items-center text-center w-[25px] h-[25px] bg-red-600 text-white rounded-md absolute top-[-15px] right-[-25px]">
             {like.length}
@@ -65,14 +65,14 @@ const Header = () => {
         <Link to="/karzinka" className="relative" id="s5">
           <button className="flex gap-1 items-center">
             <SlBasketLoaded className="text-[24px]" />
-            Savatcha
+            Basket
           </button>
           <div className="flex justify-center items-center text-center w-[25px] h-[25px] bg-red-600 text-white rounded-md absolute top-[-15px] right-[-25px]">
             {basket.length}
           </div>
         </Link>
 
-        <button id="s6" onClick={onState}>katalog</button>
+        <button id="s6" onClick={onState}>Catalog</button>
       </header>
       
     </div>

@@ -22,11 +22,11 @@ const Kategori = () => {
             className="hover:scale-110 transition-all"
           />
           <h1 className="text-center font-bold text-white mt-[10px]">
-            Telefon va gadjetlar
+          Phone and gadgets
           </h1>
           <div className="m-auto mt-[20px]">
             <button className="text-white border-[1px] border-white w-20">
-              Ko`rish
+            See
             </button>
           </div>
         </Link>
@@ -44,11 +44,11 @@ const Kategori = () => {
             className="hover:scale-110 transition-all"
           />
           <h1 className="text-center font-bold text-[rgb(112,112,112)] mt-[10px]">
-            Televizorlar
+            Tv
           </h1>
           <div className="m-auto mt-[20px]">
             <button className="text-[rgb(112,112,112)] border-[1px] border-[rgb(112,112,112)] w-20">
-              Ko`rish
+              See
             </button>
           </div>
         </Link>
@@ -66,11 +66,11 @@ const Kategori = () => {
             className="hover:scale-110 transition-all"
           />
           <h1 className="text-center font-bold text-white mt-[10px]">
-            Klimat uskunalar
+            Vintelyator
           </h1>
           <div className="m-auto mt-[20px]">
             <button className="text-white border-[1px] border-white w-20">
-              Ko`rish
+              See
             </button>
           </div>
         </Link>
@@ -88,11 +88,11 @@ const Kategori = () => {
             className="hover:scale-110 transition-all"
           />
           <h1 className="text-center font-bold text-[rgb(112,112,112)] mt-[10px]">
-            Yirik maishiy texnika
+            Washing machine
           </h1>
           <div className="m-auto mt-[20px]">
             <button className="text-center font-bold text-[rgb(112,112,112)] mt-[10px] border-[rgb(112,112,112)] w-20">
-              Ko`rish
+              See
             </button>
           </div>
         </Link>
@@ -103,11 +103,11 @@ const Kategori = () => {
             className="hover:scale-110 transition-all"
           />
           <h1 className="text-center font-bold text-white mt-[10px]">
-            Telefon va gadjetlar
+          Phone and gadgets
           </h1>
           <div className="m-auto mt-[20px]">
             <button className="text-white border-[1px] border-white w-20">
-              Ko`rish
+              See
             </button>
           </div>
         </div>
@@ -118,11 +118,11 @@ const Kategori = () => {
             className="hover:scale-110 transition-all"
           />
           <h1 className="text-center font-bold text-white mt-[10px]">
-            Telefon va gadjetlar
+          Phone and gadgets
           </h1>
           <div className="m-auto mt-[20px]">
             <button className="text-white border-[1px] border-white w-20">
-              Ko`rish
+              See
             </button>
           </div>
         </div>

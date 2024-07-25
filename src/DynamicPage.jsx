@@ -39,43 +39,43 @@ export let Dynamig = () => {
           <div>
             <h1 className="text-2xl">{data.name}</h1>
             <p className="mt-[20px]">
-              sotuvchi: YaTT Saidmurodov Saidafzal Sayfulloxon O'gli
+              sotuvchi: Raximberganov zafar
             </p>
             <img
               src={data.img}
               alt=""
               className="border-red-500 border rounded-md w-[100px] mt-[20px] mb-[20px]"
             />
-            <h5 className="mt-[20px] text-[20px]">mahsulot haqida qisqacha</h5>
+            <h5 className="mt-[20px] text-[20px]">Briefly about the product</h5>
             <div className="flex w-[300px] justify-between">
-              <p className="text-xl">rangi</p>
+              <p className="text-xl">color</p>
               <p className="text-gray-600">{data.rangi}</p>
             </div>
             <hr />
             <div className="flex w-[300px] justify-between">
-              <p className="text-xl">turi</p>
+              <p className="text-xl">type</p>
               <p className="text-gray-600">{data.tur}</p>
             </div>
             <hr />
             <div className="flex w-[300px] justify-between">
-              <p className="text-xl">korpus turi</p>
+              <p className="text-xl">body type</p>
               <p className="text-gray-600">{data.korpus}</p>
             </div>
             <hr />
             <div className="flex w-[300px] justify-between">
-              <p className="text-xl">SIM-karta turi</p>
+              <p className="text-xl">SIM-card type</p>
               <p className="text-gray-600">{data.sim}</p>
             </div>
             <hr />
             <div className="flex w-[300px] justify-between">
-              <p className="text-xl">korpus materiali</p>
+              <p className="text-xl">body material</p>
               <p className="text-gray-600">{data.material}</p>
             </div>
           </div>
-          <div className="border border-red-600 p-5 rounded-3xl relative mt-[15px]">
+          <div className="border border-l-red-600 p-5 border-t-transparent border-r-transparent border-b-transparent relative mt-[15px]">
             <div className="mt-[20px]">
               <MdOutlineFavoriteBorder className="text-3xl absolute right-[20px] top-[10px]" onClick={()=>getLikedData(data)}/>
-              <p className="">mahsulotning narxi:</p>
+              <p className="">Product price:</p>
               <h4 className="text-2xl font-semibold ">
                 {data.price.toLocaleString() + " som"}
               </h4>
@@ -87,7 +87,7 @@ export let Dynamig = () => {
                 onClick={() => getBasketData(data)}
                 className="bg-red-500 text-white px-7 py-3 mt-[20px] rounded-md"
               >
-                savatga qoshish
+                Add to cart
               </button>
             </div>
           </div>
